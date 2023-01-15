@@ -28,9 +28,9 @@ function About() {
                 </h4>
                 <p className='text-base'>
                     I'm a Front-End Developer located in Bangladesh. I have a serious passion for UI effects, animations and creating dynamic user experiences. Well-organised person, problem solver, independent employee with high attention to detail.
-                    Completed many e-commerce projects on my own. I've almost 1.5 years of expeerience in this sector.
+                    Completed many e-commerce projects on my own. I've almost 1.5 years of experience in this sector.
                     Extra:
-                    Fan of Badmintion, outdoor activities and TV series (specially magic and advanture).
+                    Fan of Badminton, outdoor activities and TV series (especially magic and adventure) 👻.
 
 
                 </p>
