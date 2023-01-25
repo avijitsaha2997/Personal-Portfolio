@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import pic from "./profilepic.jpg"
+import "./All.css"
 
 function About() {
     return (

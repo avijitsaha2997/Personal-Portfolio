@@ -13,15 +13,21 @@ import pic from "./components/profilepic.jpg"
 
 
 
+
 function App() {
 
+
   return (
-    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#F7AB0A]'>
+    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-10 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#F7AB0A]'>
+
+
+
+
       {/* Header */}
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start'>
+      <section id='hero' className='snap-center'>
         <Hero />
       </section>
 
@@ -65,9 +71,6 @@ function App() {
           </Link>
         </div>
       </div>
-
-
-
 
     </div>
   );
