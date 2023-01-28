@@ -14,7 +14,7 @@ function Skills() {
 
                 <Skill image="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" percentage="90%" /> {/*html*/}
                 <Skill image="https://www.shareicon.net/download/2016/08/01/639873_internet.svg" percentage="80%" /> {/*css*/}
-                <Skill image="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" percentage="90%" /> {/*js*/}
+                <Skill image="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png" percentage="90%" /> {/*js*/}
                 <Skill image="https://cdn.worldvectorlogo.com/logos/react-1.svg" percentage="85%" /> {/*react*/}
                 <Skill image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png" percentage="70%" /> {/*redux*/}
                 <Skill image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" percentage="65%" /> {/*tailwind*/}
@@ -23,7 +23,7 @@ function Skills() {
                 <Skill image="https://react-query-v3.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg" percentage="30%" /> {/*query*/}
                 <Skill image="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" percentage="60%" /> {/*firebase*/}
                 <Skill image="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_96102ac6497377cd53da621075fe828e/sanity.png" percentage="70%" /> {/*sanity*/}
-                <Skill image="https://cdn-icons-png.flaticon.com/512/25/25231.png" percentage="80%" /> {/*github*/}
+                <Skill image="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" percentage="80%" /> {/*git*/}
 
 
             </div>

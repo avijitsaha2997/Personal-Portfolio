@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Prjoects from './components/Prjoects';
 import ContactMe from './components/ContactMe';
 import { HashLink as Link } from 'react-router-hash-link';
-import pic from "./components/profilepic.jpg"
+import pic from "./components/button.jpg"
 
 
 
@@ -64,7 +64,7 @@ function App() {
             <img
               src={pic}
               alt=''
-              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+              className='h-10 w-10 rounded-full filter grayscale-0 hover:grayscale cursor-pointer'
             // height={1000}
             // width={1000}
             />
