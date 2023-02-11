@@ -64,7 +64,7 @@ function App() {
             <img
               src={pic}
               alt=''
-              className='h-10 w-10 rounded-full filter grayscale-0 hover:grayscale cursor-pointer'
+              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
             // height={1000}
             // width={1000}
             />

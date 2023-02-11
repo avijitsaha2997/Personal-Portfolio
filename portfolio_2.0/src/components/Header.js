@@ -23,8 +23,14 @@ function Header() {
                 }}
                 className='flex flex-row items-center'>
                 {/* Social Icons */}
+
                 <SocialIcon
-                    url='https://www.facebook.com/Jack.sparr00ww'
+                    url='https://www.facebook.com/wwwhite.angelll/'
+                    fgColor='gray'
+                    bgColor='transparent'
+                />
+                <SocialIcon
+                    url='https://www.linkedin.com/in/avijit-saha-209a491a6/'
                     fgColor='gray'
                     bgColor='transparent'
                 />
@@ -34,9 +40,17 @@ function Header() {
                     bgColor='transparent'
                 />
                 <SocialIcon
-                    url='https://www.linkedin.com/in/avijit-saha-209a491a6/'
+                    url='https://open.spotify.com/user/31i6qh7wf3r55oy2vpw6r7rc67ui'
                     fgColor='gray'
                     bgColor='transparent'
+                />
+
+                <SocialIcon
+                    url='https://dsc.bio/whiteangel'
+
+                    bgColor='transparent'
+                    fgColor='gray'
+
                 />
             </motion.div>
 

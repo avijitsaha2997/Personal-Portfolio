@@ -6,6 +6,7 @@ import Food_Store_1 from "./porfolio projects pics/1.png"
 import Food_Store_2 from "./porfolio projects pics/4.png"
 import portfolio from "./porfolio projects pics/5.png"
 import airbnb from "./porfolio projects pics/6.png"
+import netflix from "./porfolio projects pics/7.png"
 
 function Prjoects({ projectName, projectDetails }) {
     const projects = [{
@@ -14,6 +15,13 @@ function Prjoects({ projectName, projectDetails }) {
         imgSrc: ecomerce,
         github: "https://github.com/avijitsaha2997/Project-My-E_commerce",
         liveDemo: "https://e-commerce-2fac1.web.app/"
+    },
+    {
+        name: "Netflix Clone",
+        details: "Netflix clone 2.0. Fully functional netflix clone using with Redux and Stripe payment. Managed all UI information with TMDB api.",
+        imgSrc: netflix,
+        github: "https://github.com/avijitsaha2997/netflix-clone",
+        liveDemo: "https://netflix-clone-eight-weld.vercel.app/"
     },
     {
         name: "Food Store 1",
@@ -50,6 +58,7 @@ function Prjoects({ projectName, projectDetails }) {
         github: "https://github.com/avijitsaha2997/Project-Airbnb",
         liveDemo: "https://project-airbnb-pi.vercel.app/"
     },
+
     ];
     return (
         <motion.div

@@ -12,13 +12,13 @@ function Skills() {
             </h3>
             <div className='grid grid-cols-3 md:grid-cols-4 gap-4 mt-24'>
 
-                <Skill image="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" percentage="90%" /> {/*html*/}
-                <Skill image="https://www.shareicon.net/download/2016/08/01/639873_internet.svg" percentage="80%" /> {/*css*/}
+                <Skill image="https://asher.edu/wp-content/uploads/2018/08/Html5-coding-school.png" percentage="90%" /> {/*html*/}
+                <Skill image="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" percentage="80%" /> {/*css*/}
                 <Skill image="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png" percentage="90%" /> {/*js*/}
                 <Skill image="https://cdn.worldvectorlogo.com/logos/react-1.svg" percentage="85%" /> {/*react*/}
                 <Skill image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png" percentage="70%" /> {/*redux*/}
                 <Skill image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" percentage="65%" /> {/*tailwind*/}
-                <Skill image="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" percentage="50%" /> {/*bootstarp*/}
+                <Skill image="https://mui.com/static/logo.png" percentage="50%" /> {/*bootstarp*/}
                 <Skill image="https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png" percentage="75%" /> {/*framer motion*/}
                 <Skill image="https://react-query-v3.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg" percentage="30%" /> {/*query*/}
                 <Skill image="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" percentage="60%" /> {/*firebase*/}
