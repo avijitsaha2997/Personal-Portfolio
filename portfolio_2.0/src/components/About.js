@@ -24,7 +24,7 @@ function About() {
             />
             <div className='space-y-10 px-0 md:px-10 '>
                 <h4 className='text-2xl md:text-4xl font-semibold'>
-                    Here is, <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "}
+                    Here is, <span className='underline decoration-[#3374FF]/50'>little</span>{" "}
                     about myself
                 </h4>
                 <p className='text-base'>

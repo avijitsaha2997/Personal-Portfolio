@@ -76,7 +76,7 @@ function Prjoects({ projectName, projectDetails }) {
                 Projects
             </h3>
 
-            <div className='relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#F7AB0A]'>
+            <div className='relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#3374FF]/30'>
                 {projects.map((project, i) => (
                     <div
                         key={Math.random()}
@@ -102,14 +102,14 @@ function Prjoects({ projectName, projectDetails }) {
                         />
                         <div className='space-y-6 px-0 md:px-10 max-w-6xl'>
                             <h4 className=' text-2xl md:text-4xl font-semibold text-center'>
-                                <span className='underline decoration-[#F7AB0A]/50'>
+                                <span className='underline decoration-#3374FF]/50'>
                                     Project {i + 1} of {projects.length}:
                                 </span>{" "}
                                 {project.name}
                             </h4>
                             <div className='flex justify-evenly'>
-                                <a href={project.github} className='cursor-pointer font-semibold text-2xl underline decoration-[#F7AB0A]/50'>Github</a>
-                                <a href={project.liveDemo} className='cursor-pointer font-semibold text-2xl underline decoration-[#F7AB0A]/50'>Live Demo</a>
+                                <a href={project.github} className='cursor-pointer font-semibold text-2xl underline decoration-[#3374FF]/50'>Github</a>
+                                <a href={project.liveDemo} className='cursor-pointer font-semibold text-2xl underline decoration-[#3374FF]/50'>Live Demo</a>
                             </div>
                             <p className=' text-lg text-center md:text-left'>
                                 {project.details}
@@ -119,7 +119,7 @@ function Prjoects({ projectName, projectDetails }) {
                 ))}
             </div>
 
-            <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>
+            <div className='w-full absolute top-[30%] bg-[#3374FF]/10 left-0 h-[500px] -skew-y-12'></div>
         </motion.div>
     )
 }

@@ -18,22 +18,22 @@ function ContactMe() {
             <div className='flex flex-col space-y-10 mt-10'>
                 <h4 className='text-2xl md:text-4xl font-semibold text-center'>
 
-                    <span className='underline decoration-[#F7AB0A]/50'>Let's Talk.</span>
+                    <span className='underline decoration-[#3374FF]/50'>Let's Talk.</span>
                 </h4>
 
                 <div className='space-y-7'>
                     <div className='flex items-center space-x-5 justify-center'>
-                        <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                        <PhoneIcon className='text-[#3374FF] h-7 w-7 animate-pulse' />
                         <p className='text-1xl md:text-2xl'>+8801785483702</p>
                     </div>
 
                     <div className='flex items-center space-x-5 justify-center'>
-                        <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                        <EnvelopeIcon className='text-[#3374FF] h-7 w-7 animate-pulse' />
                         <p className='text-1xl md:text-2xl'>jit.avi.saha2997@gmail.com</p>
                     </div>
 
                     <div className='flex items-center space-x-5 justify-center'>
-                        <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                        <MapPinIcon className='text-[#3374FF] h-7 w-7 animate-pulse' />
                         <p className='text-1xl md:text-2xl'>Dhaka 1206, Bangladesh</p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ function ContactMe() {
                     />
                     <button
                         type='submit'
-                        className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>
+                        className='bg-[#3374FF]/30 py-5 px-10 rounded-md text-white/60 font-bold text-lg'>
                         Submit
                     </button>
                 </form>

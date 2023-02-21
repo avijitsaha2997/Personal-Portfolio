@@ -26,30 +26,29 @@ function Header() {
 
                 <SocialIcon
                     url='https://www.facebook.com/wwwhite.angelll/'
-                    fgColor='gray'
+                    fgColor='white'
                     bgColor='transparent'
                 />
                 <SocialIcon
                     url='https://www.linkedin.com/in/avijit-saha-209a491a6/'
-                    fgColor='gray'
+                    fgColor='white'
                     bgColor='transparent'
                 />
                 <SocialIcon
                     url='https://github.com/avijitsaha2997'
-                    fgColor='gray'
+                    fgColor='white'
                     bgColor='transparent'
                 />
                 <SocialIcon
                     url='https://open.spotify.com/user/31i6qh7wf3r55oy2vpw6r7rc67ui'
-                    fgColor='gray'
+                    fgColor='white'
                     bgColor='transparent'
                 />
 
                 <SocialIcon
                     url='https://dsc.bio/whiteangel'
-
                     bgColor='transparent'
-                    fgColor='gray'
+                    fgColor='white'
 
                 />
             </motion.div>
@@ -74,7 +73,7 @@ function Header() {
                     <SocialIcon
                         className='cursor-pointer'
                         network='email'
-                        fgColor='gray'
+                        fgColor='white'
                         bgColor='transparent'
                     />
                     <p className='uppercase hidden md:inline-flex text-sm text-gray-500'>

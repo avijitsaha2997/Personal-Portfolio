@@ -63,10 +63,10 @@ function Hero() {
                     },
                     particles: {
                         color: {
-                            value: "#F7AB0A",
+                            value: "#3374FF",
                         },
                         links: {
-                            color: "#F7AB0A",
+                            color: "#3374FF",
                             distance: 200,
                             enable: true,
                             opacity: 0.5,
@@ -117,7 +117,7 @@ function Hero() {
                 </h1>
                 <h1 className='text-1xl sm:text-2xl md:text-4xl lg:text-6xl  font-semibold px-10'>
                     <span className='mr-3'>{text}</span>
-                    <Cursor cursorColor='#f7AB0A' />
+                    <Cursor cursorColor='#3374FF' />
                 </h1>
                 <div className='pt-5'>
 
