@@ -38,7 +38,7 @@ function Hero() {
                 loaded={particlesLoaded}
                 options={{
 
-                    fpsLimit: 120,
+                    fpsLimit: 300,
                     interactivity: {
                         events: {
                             onClick: {
@@ -90,7 +90,7 @@ function Hero() {
                                 enable: true,
                                 area: 700,
                             },
-                            value: 30,
+                            value: 15,
                         },
                         opacity: {
                             value: 0.5,

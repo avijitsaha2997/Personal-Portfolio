@@ -30,7 +30,7 @@ function Header() {
                     bgColor='transparent'
                 />
                 <SocialIcon
-                    url='https://www.linkedin.com/in/avijit-saha-209a491a6/'
+                    url='https://www.linkedin.com/in/avijitsaha2997'
                     fgColor='white'
                     bgColor='transparent'
                 />
@@ -40,7 +40,7 @@ function Header() {
                     bgColor='transparent'
                 />
                 <SocialIcon
-                    url='https://open.spotify.com/user/31i6qh7wf3r55oy2vpw6r7rc67ui'
+                    url='https://open.spotify.com/user/313vzgnbvx6usdesum3ansjck5zq?si=eb65e7729e1248f2'
                     fgColor='white'
                     bgColor='transparent'
                 />
