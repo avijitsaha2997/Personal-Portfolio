@@ -30,7 +30,7 @@ function Header() {
                     bgColor='transparent'
                 />
                 <SocialIcon
-                    url='https://www.linkedin.com/in/avijitsaha2997'
+                    url='https://www.linkedin.com/in/avijitsaha2997/'
                     fgColor='white'
                     bgColor='transparent'
                 />
