@@ -26,11 +26,11 @@ function Hero() {
       />
 
       <div className="z-20">
-        <h1 className="text-sm uppercase text-white pb-2 tracking-[15px]">
+        <h1 className="text-base uppercase text-[#3374FF]/60 pb-2 tracking-[15px]">
           Software Engineer
         </h1>
         <h1 className="text-1xl sm:text-2xl md:text-4xl lg:text-6xl  font-semibold px-10">
-          <span className="mr-3">{text}</span>
+          <span className="mr-3 text-[#fff]/90">{text}</span>
           <Cursor cursorColor="#3374FF" />
         </h1>
         <div className="pt-5">

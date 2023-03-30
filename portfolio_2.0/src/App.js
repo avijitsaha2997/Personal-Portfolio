@@ -11,7 +11,7 @@ import pic from "./components/button.jpg";
 
 function App() {
   return (
-    <div className="bg-[#050A30] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-10 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#3374FF]/30">
+    <div className="bg-[#000117] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-10 scrollbar scrollbar-track-gray-500/40 scrollbar-thumb-[#3374FF]/30">
       {/* Header */}
       <Header />
 
