@@ -12,14 +12,6 @@ import chatgpt from "./porfolio projects pics/8.png";
 function Prjoects({ projectName, projectDetails }) {
   const projects = [
     {
-      name: "ChatGPT 2.0",
-      details:
-        "ChatGPT clone with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript). I used ChatGPT API to create my own AI chat bot. Firebase v9 used to create & store REALTIME chats with chatGPT. Manage to reduce the overall number of Bugs and Errors with TypeScript.",
-      imgSrc: chatgpt,
-      github: "https://github.com/avijitsaha2997/ChatGPT-clone",
-      liveDemo: "https://chat-gpt-clone-chi-seven.vercel.app",
-    },
-    {
       name: "Gadget Store",
       details:
         "This is a full stack web app with firebase authentication. Implemented full payment process with stripe payment.",
@@ -34,6 +26,14 @@ function Prjoects({ projectName, projectDetails }) {
       imgSrc: netflix,
       github: "https://github.com/avijitsaha2997/netflix-clone",
       liveDemo: "https://netflix-clone-eight-weld.vercel.app/",
+    },
+    {
+      name: "ChatGPT 2.0",
+      details:
+        "ChatGPT clone with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript). I used ChatGPT API to create my own AI chat bot. Firebase v9 used to create & store REALTIME chats with chatGPT. Manage to reduce the overall number of Bugs and Errors with TypeScript.",
+      imgSrc: chatgpt,
+      github: "https://github.com/avijitsaha2997/ChatGPT-clone",
+      liveDemo: "https://chat-gpt-clone-chi-seven.vercel.app",
     },
     {
       name: "Food Store 1",
