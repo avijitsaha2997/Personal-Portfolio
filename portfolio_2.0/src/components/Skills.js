@@ -1,5 +1,21 @@
 import React from "react";
 import Skill from "./Skill";
+import html from "./skill image/html.png";
+import css from "./skill image/css.png";
+import js from "./skill image/js.png";
+import nextjs from "./skill image/nextjs.png";
+import react from "./skill image/react.png";
+import redux from "./skill image/redux.png";
+import tailwind from "./skill image/tailwind.png";
+import mui from "./skill image/mui.png";
+import nodejs from "./skill image/nodejs.png";
+import express from "./skill image/express.png";
+import mongodb from "./skill image/mongodb.png";
+import firebase from "./skill image/firebase.png";
+import sanity from "./skill image/sanity.png";
+import git from "./skill image/git.png";
+import jest from "./skill image/jest.png";
+import framermotion from "./skill image/framermotion.png";
 function Skills() {
   return (
     <div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[900px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
@@ -11,90 +27,23 @@ function Skills() {
         Hover over a skill for current proficiency
       </h3>
       <div className="grid grid-cols-4 gap-4 mt-24">
-        <Skill
-          image="https://asher.edu/wp-content/uploads/2018/08/Html5-coding-school.png"
-          percentage="90%"
-        />{" "}
-        {/*html*/}
-        <Skill
-          image="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
-          percentage="80%"
-        />{" "}
-        {/*css*/}
-        <Skill
-          image="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png"
-          percentage="90%"
-        />{" "}
-        {/*js*/}
-        <Skill
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqJcgIr0f9yZh8IsgeJGt00ukQzGr6yUP1MR_fB-tOl3KEvShp04QAvYsSBmBn3Z3BZg&usqp=CAU"
-          percentage="40%"
-        />{" "}
-        {/*next js*/}
-        <Skill
-          image="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
-          percentage="85%"
-        />{" "}
-        {/*react*/}
-        <Skill
-          image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png"
-          percentage="70%"
-        />{" "}
-        {/*redux*/}
-        <Skill
-          image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-          percentage="65%"
-        />{" "}
-        {/*tailwind*/}
-        <Skill image="https://mui.com/static/logo.png" percentage="60%" />{" "}
-        {/*material ui*/}
-        <Skill
-          image="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png"
-          percentage="80%"
-          directionLeft
-        />{" "}
-        {/*node*/}
-        <Skill
-          image="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3498663/status-iucn-ex-icon-blank-icon-md.png"
-          percentage="80%"
-          directionLeft
-        />{" "}
+        <Skill image={html} percentage="90%" /> {/*html*/}
+        <Skill image={css} percentage="80%" /> {/*css*/}
+        <Skill image={js} percentage="90%" /> {/*js*/}
+        <Skill image={nextjs} percentage="40%" /> {/*next js*/}
+        <Skill image={react} percentage="85%" /> {/*react*/}
+        <Skill image={redux} percentage="70%" /> {/*redux*/}
+        <Skill image={tailwind} percentage="65%" /> {/*tailwind*/}
+        <Skill image={mui} percentage="60%" /> {/*material ui*/}
+        <Skill image={nodejs} percentage="80%" directionLeft /> {/*node*/}
+        <Skill image={express} percentage="80%" directionLeft />{" "}
         {/*express js*/}
-        <Skill
-          image="https://icons-for-free.com/download-icon-mongodb+plain-1324760553187258418_512.png"
-          percentage="80%"
-          directionLeft
-        />{" "}
-        {/*Mongo db*/}
-        <Skill
-          image="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
-          percentage="60%"
-          directionLeft
-        />{" "}
-        {/*firebase*/}
-        <Skill
-          image="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_96102ac6497377cd53da621075fe828e/sanity.png"
-          percentage="70%"
-          directionLeft
-        />{" "}
-        {/*sanity*/}
-        <Skill
-          image="https://img.icons8.com/color/154/git.png"
-          percentage="80%"
-          directionLeft
-        />{" "}
-        {/*git*/}
-        <Skill
-          image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png"
-          percentage="50%"
-          directionLeft
-        />{" "}
-        {/*jest*/}
-        <Skill
-          image="https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png"
-          percentage="75%"
-          directionLeft
-        />{" "}
+        <Skill image={mongodb} percentage="80%" directionLeft /> {/*Mongo db*/}
+        <Skill image={firebase} percentage="60%" directionLeft /> {/*firebase*/}
+        <Skill image={sanity} percentage="70%" directionLeft /> {/*sanity*/}
+        <Skill image={git} percentage="80%" directionLeft /> {/*git*/}
+        <Skill image={jest} percentage="50%" directionLeft /> {/*jest*/}
+        <Skill image={framermotion} percentage="75%" directionLeft />{" "}
         {/*framer motion*/}
       </div>
     </div>

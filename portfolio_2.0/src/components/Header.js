@@ -2,9 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
 import { HashLink as Link } from "react-router-hash-link";
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
 function Header() {
   return (

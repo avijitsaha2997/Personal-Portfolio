@@ -7,33 +7,42 @@ import Food_Store_2 from "./porfolio projects pics/4.png";
 import portfolio from "./porfolio projects pics/5.png";
 import airbnb from "./porfolio projects pics/6.png";
 import netflix from "./porfolio projects pics/7.png";
-import chatgpt from "./porfolio projects pics/8.png";
+import social from "./porfolio projects pics/9.png";
+import itApp from "./porfolio projects pics/10.png";
+import disnep from "./porfolio projects pics/11.png";
 
 function Prjoects({ projectName, projectDetails }) {
   const projects = [
     {
       name: "Gadget Store",
-      details:
-        "This is a full stack web app with firebase authentication. Implemented full payment process with stripe payment.",
+      details: "This is a full stack web app with firebase authentication.",
       imgSrc: ecomerce,
       github: "https://github.com/avijitsaha2997/Project-My-E_commerce",
       liveDemo: "https://e-commerce-2fac1.web.app/",
     },
     {
-      name: "Netflix Clone",
+      name: "Social Media App",
       details:
-        "Netflix clone 2.0. Fully functional netflix clone using with Redux and Stripe payment. Managed all UI information with TMDB api.",
-      imgSrc: netflix,
-      github: "https://github.com/avijitsaha2997/netflix-clone",
-      liveDemo: "https://netflix-clone-eight-weld.vercel.app/",
+        "Full stack Social Media App. This web app has all required functionality.",
+      imgSrc: social,
+      github: "https://github.com/avijitsaha2997/social-media-app-client",
+      liveDemo: "https://social-media-app-one-iota.vercel.app/",
     },
     {
-      name: "ChatGPT 2.0",
+      name: "IT Shop",
       details:
-        "ChatGPT clone with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript). I used ChatGPT API to create my own AI chat bot. Firebase v9 used to create & store REALTIME chats with chatGPT. Manage to reduce the overall number of Bugs and Errors with TypeScript.",
-      imgSrc: chatgpt,
-      github: "https://github.com/avijitsaha2997/ChatGPT-clone",
-      liveDemo: "https://chat-gpt-clone-chi-seven.vercel.app",
+        "A fully responsive store web app. This project has almost everything that I know about animations.",
+      imgSrc: itApp,
+      github: "https://github.com/avijitsaha2997/IT-Business-App",
+      liveDemo: "https://it-business-app.vercel.app/",
+    },
+    {
+      name: "Boooking App",
+      details:
+        "This is a Next.js project. In this project i used Date-Picker, MapBox Studio, Middleware function.",
+      imgSrc: airbnb,
+      github: "https://github.com/avijitsaha2997/Project-Airbnb",
+      liveDemo: "https://project-airbnb-pi.vercel.app/",
     },
     {
       name: "Food Store 1",
@@ -52,6 +61,22 @@ function Prjoects({ projectName, projectDetails }) {
       liveDemo: "https://project-food-delivery-app-2.vercel.app/",
     },
     {
+      name: "Disnep Clone",
+      details:
+        "This project was bootstrapped with Create React App, using the Redux and Redux Toolkit template.",
+      imgSrc: disnep,
+      github: "https://github.com/avijitsaha2997/Disney-clone",
+      liveDemo: "https://disney-clone-jade.vercel.app/",
+    },
+    {
+      name: "Netflix Clone",
+      details:
+        "Netflix clone 2.0. Fully functional netflix clone using with Redux and Stripe payment. Managed all UI information with TMDB api.",
+      imgSrc: netflix,
+      github: "https://github.com/avijitsaha2997/netflix-clone",
+      liveDemo: "https://netflix-clone-eight-weld.vercel.app/",
+    },
+    {
       name: "Spotify Clone",
       details:
         "I worked on only user interface in this project. Also used original spotify authentication and spotify API.",
@@ -66,14 +91,6 @@ function Prjoects({ projectName, projectDetails }) {
       imgSrc: portfolio,
       github: "https://github.com/avijitsaha2997/Portfolio-Core-JS",
       liveDemo: "https://portfolio-core-js.vercel.app/",
-    },
-    {
-      name: "Airbnb",
-      details:
-        "This is a Next.js project bootstrapped with create-next-app. In this project i used Date-Picker, MapBox Studio, Middleware function.",
-      imgSrc: airbnb,
-      github: "https://github.com/avijitsaha2997/Project-Airbnb",
-      liveDemo: "https://project-airbnb-pi.vercel.app/",
     },
   ];
   return (
