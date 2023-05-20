@@ -10,6 +10,7 @@ import netflix from "./porfolio projects pics/7.png";
 import social from "./porfolio projects pics/9.png";
 import itApp from "./porfolio projects pics/10.png";
 import disnep from "./porfolio projects pics/11.png";
+import codeeditor from "./porfolio projects pics/12.png";
 
 function Prjoects({ projectName, projectDetails }) {
   const projects = [
@@ -28,6 +29,7 @@ function Prjoects({ projectName, projectDetails }) {
       github: "https://github.com/avijitsaha2997/social-media-app-client",
       liveDemo: "https://social-media-app-one-iota.vercel.app/",
     },
+
     {
       name: "IT Shop",
       details:
@@ -43,6 +45,13 @@ function Prjoects({ projectName, projectDetails }) {
       imgSrc: airbnb,
       github: "https://github.com/avijitsaha2997/Project-Airbnb",
       liveDemo: "https://project-airbnb-pi.vercel.app/",
+    },
+    {
+      name: "Code editor",
+      details: "A simple html, css and javascript code editor.",
+      imgSrc: codeeditor,
+      github: "https://github.com/avijitsaha2997/Code-Editor",
+      liveDemo: "https://code-editor-git-master-avijitsaha2997.vercel.app/",
     },
     {
       name: "Food Store 1",
@@ -85,7 +94,7 @@ function Prjoects({ projectName, projectDetails }) {
       liveDemo: "https://spotify-clone-cdad8.web.app/",
     },
     {
-      name: "Sample Portfolio",
+      name: "Core JS Portfolio",
       details:
         "This is a sample portfolio using with html, css and javascript only. Worked with form validation at contact section.",
       imgSrc: portfolio,
